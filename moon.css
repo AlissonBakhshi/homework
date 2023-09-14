@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #162A4A; 
+}
+
+.moon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #162A4A; 
+    border-radius: 100%;
+    border-right: 15px solid white;
+
+    
+}

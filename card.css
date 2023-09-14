@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-shadow: border-box; 
+}
+body{
+    font-size: 1.7rem;
+    font-family:"merriweather sans",sans-serif;
+    background: #2c3e50;
+    padding: 4rem;
+}
+ h2{
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 4rem;
+ }
+ .all-products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap ;
+ }
+
+ .product{
+    overflow: hidden;
+    background: #ffffff;
+    color: #21201e;
+    text-align: center;
+    width:340px;
+    height: 440px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2rem;
+    margin: 2rem;
+ }
+ .product:hover{
+    box-shadow: 5px 15px 25px #eeeeee;
+ }
+  .product img{
+    height:250px;
+    margin: 1rem;
+    transition: all 0.3;
+    border-radius: 1rem;
+ }
+ .product a:link, .product a:visited{
+    color: #ececec;
+    display: inline-block;
+    text-decoration: none;
+    background-color: orange;
+    padding: 1.2rem 3rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    transition: all 0.2s;
+ }
+ .product a:hover{
+    transform:(1.1);
+ }

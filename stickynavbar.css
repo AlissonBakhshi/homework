@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Arial,
+}
+
+.sticky-navbar {
+    background-color: #3498db;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    text-align:Left;
+    padding: 1 0;
+    margin-top: 1%;
+}
+
+.sticky-navbar h1 {
+    color: #fff;
+    margin: 0;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    min-height: auto;
+}

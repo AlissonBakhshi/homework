@@ -1,0 +1,15 @@
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    margin-left: 10px;
+    
+}
+
+.half {
+    width: 200px;
+    height: 100px;
+    background-color: #e74c3c;
+    margin-top: -50px;
+    margin-left: 50px;
+}
